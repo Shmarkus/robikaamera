@@ -5,7 +5,6 @@
 # that none of the other crontabs do.
 
 # m h dom mon dow user	command
-#  * *	* *   *	root    /app/camera.sh >> /var/log/cron.log 2>&1
 * * * * * root /app/camera.sh >> /var/log/cron.log 2>&1
 #newline
 
