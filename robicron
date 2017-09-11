@@ -6,5 +6,6 @@
 
 # m h dom mon dow user	command
 * * * * * root /app/camera.sh >> /var/log/cron.log 2>&1
+0,30 * * * * root killall ffmpeg >> /var/log/cron.log 2>&1
 #newline
 
